@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Você Pode Tudo - Democratizando acesso a capacitação profissional. Cursos gratuitos, trilhas de aprendizagem e recursos para conquistar independência financeira.">
+    <meta name="theme-color" content="#2563eb">
+    <meta property="og:title" content="Você Pode Tudo | Aprenda. Desenvolva. Conquiste.">
+    <meta property="og:description" content="Cursos gratuitos, trilhas de aprendizagem e recursos profissionais para conquistar sua independência financeira.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://vocepodetudo.netlify.app/">
+    <meta property="og:image" content="https://vocepodetudo.netlify.app/icon.svg">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Você Pode Tudo | Aprenda. Desenvolva. Conquiste.">
+    <meta name="twitter:description" content="Cursos gratuitos, trilhas de aprendizagem e recursos profissionais.">
+    <link rel="canonical" href="https://vocepodetudo.netlify.app/">
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebSite",
+          "name": "Você Pode Tudo",
+          "url": "https://vocepodetudo.netlify.app/",
+          "description": "Cursos gratuitos, trilhas de aprendizagem e recursos profissionais para conquistar sua independência financeira.",
+          "inLanguage": "pt-BR"
+        },
+        {
+          "@type": "Organization",
+          "name": "Você Pode Tudo",
+          "url": "https://vocepodetudo.netlify.app/",
+          "email": "contato.vocepodetudo@gmail.com",
+          "description": "Hub de cursos gratuitos e capacitação profissional."
+        }
+      ]
+    }
+    </script>
+    <title>Você Pode Tudo | Aprenda. Desenvolva. Conquiste.</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="manifest" href="manifest.json">
+    <link rel="icon" href="icon.svg" type="image/svg+xml">
+    <script>
+        (function () {
+            try {
+                var saved = localStorage.getItem('theme');
+                var dark = saved ? saved === 'dark' : window.matchMedia('(prefers-color-scheme: dark)').matches;
+                if (dark) document.documentElement.setAttribute('data-theme', 'dark');
+
+                var a11y = JSON.parse(localStorage.getItem('vpt_a11y') || '{}') || {};
+                if (a11y.fontScale && a11y.fontScale !== 100) {
+                    document.documentElement.style.fontSize = a11y.fontScale + '%';
+                }
+                if (a11y.contrast) document.documentElement.setAttribute('data-contrast', 'high');
+                if (a11y.reduceMotion) document.documentElement.setAttribute('data-reduce-motion', 'true');
+            } catch (e) { /* modo privado */ }
+        })();
+    </script>
+</head>
+<body>
+    <a href="#main-content" class="skip-link">Pular para o conteúdo principal</a>
+
+    <header class="header" role="banner">
+        <div class="container header-inner">
+            <a href="#" class="logo" aria-label="Você Pode Tudo - Página inicial">
+                <svg class="logo-icon" viewBox="0 0 32 32" aria-hidden="true" focusable="false">
+                    <circle cx="16" cy="16" r="14" fill="currentColor"/>
+                    <path d="M10 16l4 4 8-8" stroke="white" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                <span class="logo-text">Você Pode Tudo</span>
+            </a>
+
+            <div class="header-actions">
+                <button type="button" id="account-button" class="account-button" aria-haspopup="dialog" aria-controls="account-modal" aria-label="Entrar ou criar conta gratuita" title="Entrar ou criar conta gratuita">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+                    <span id="account-button-label">Entrar</span>
+                </button>
+                <button class="theme-toggle" id="theme-toggle" type="button" data-theme-toggle aria-pressed="false" aria-label="Ativar modo escuro" title="Modo escuro">
+                    <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+                    <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/></svg>
+                    <span class="theme-toggle-label" data-theme-label>Escuro</span>
+                </button>
+                <nav class="nav" role="navigation" aria-label="Menu principal">
+                    <button class="nav-toggle" aria-expanded="false" aria-controls="nav-menu" aria-label="Abrir menu">
+                        <span class="hamburger" aria-hidden="true"></span>
+                    </button>
+                    <ul id="nav-menu" class="nav-menu">
+                        <li><a href="#inicio" class="nav-link">Início</a></li>
+                        <li><a href="#cursos" class="nav-link">Cursos Gratuitos</a></li>
+                        <li><a href="#trilhas" class="nav-link">Trilhas de Aprendizagem</a></li>
+                        <li><a href="#recursos" class="nav-link">Recursos Profissionais</a></li>
+                        <li><a href="#como-funciona" class="nav-link">Como Funciona</a></li>
+                        <li><a href="#missao" class="nav-link">Nossa Missão</a></li>
+                        <li class="nav-theme">
+                            <span class="nav-theme-title" id="nav-theme-title">Tema</span>
+                            <div class="theme-switch theme-switch--nav" role="group" aria-labelledby="nav-theme-title">
+                                <button type="button" class="theme-choice" data-theme-choice="light" aria-pressed="false">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/></svg>
+                                    Claro
+                                </button>
+                                <button type="button" class="theme-choice" data-theme-choice="dark" aria-pressed="false">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+                                    Escuro
+                                </button>
+                            </div>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div class="nav-backdrop" id="nav-backdrop" aria-hidden="true" hidden></div>
+    </header>
+
+    <main id="main-content" role="main">
+        <section id="inicio" class="hero" aria-labelledby="hero-title">
+            <div class="container">
+                <div class="hero-content">
+                    <h1 id="hero-title" class="hero-title">
+                        Aprenda.<br>
+                        <span class="hero-title--highlight">Desenvolva.</span><br>
+                        Conquiste.
+                    </h1>
+                    <p class="hero-subtitle">Democratizamos o acesso à capacitação profissional conectando você a cursos gratuitos e ferramentas para conquistar sua independência financeira através do conhecimento e do trabalho.</p>
+                    <div class="hero-actions">
+                        <a href="#cursos" class="btn btn--primary btn--large">Explorar Cursos Gratuitos</a>
+                        <a href="#trilhas" class="btn btn--secondary btn--large">Ver Trilhas de Aprendizagem</a>
+                    </div>
+                    <p class="hero-account-cta">Quer salvar seu progresso? <button type="button" class="link-button" data-open-account>Entre ou crie sua conta gratuita</button>.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="cursos" class="section courses" aria-labelledby="courses-title">
+            <div class="container">
+                <header class="section-header">
+                    <h2 id="courses-title" class="section-title">Catálogo de Cursos Gratuitos</h2>
+                    <p class="section-subtitle">Encontre o curso ideal para sua carreira. Todos gratuitos, de qualidade e com certificado.</p>
+                </header>
+
+                <div class="courses-toolbar">
+                    <div class="search-field">
+                        <label for="course-search" class="sr-only">Buscar cursos</label>
+                        <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true" focusable="false"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+                        <input type="search" id="course-search" class="search-input" placeholder="Buscar por curso, instituição ou tema..." autocomplete="off" aria-describedby="results-count">
+                        <button type="button" id="search-clear" class="search-clear" hidden aria-label="Limpar busca">&times;</button>
+                    </div>
+                    <div class="toolbar-selects">
+                        <div class="select-field">
+                            <label for="level-filter" class="sr-only">Filtrar por nível</label>
+                            <select id="level-filter" class="form-select">
+                                <option value="all">Todos os níveis</option>
+                                <option value="Iniciante">Iniciante</option>
+                                <option value="Intermediário">Intermediário</option>
+                                <option value="Avançado">Avançado</option>
+                            </select>
+                        </div>
+                        <div class="select-field">
+                            <label for="provider-filter" class="sr-only">Filtrar por instituição</label>
+                            <select id="provider-filter" class="form-select">
+                                <option value="all">Todas as instituições</option>
+                            </select>
+                        </div>
+                            <select id="sort-filter" class="form-select">
+                                <option value="featured">Mais relevantes</option>
+                                <option value="recent">Mais recentes</option>
+                                <option value="az">Título (A–Z)</option>
+                            </select>
+                        </div>
+                        <button type="button" id="compare-toggle" class="favorites-filter" aria-pressed="false" aria-controls="courses-grid">
+                            ⚖️ Comparar <span class="favorites-count-badge" id="compare-count">0</span>
+                        </button>
+                        <button type="button" id="favorites-filter" class="favorites-filter" aria-pressed="false" aria-controls="courses-grid">
+                            <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg>
+                            Favoritos <span class="favorites-count-badge" id="favorites-count">0</span>
+                        </button>
+                    </div>
+                </div>
+                <p id="results-count" class="results-count" role="status" aria-live="polite"></p>
+
+                <div class="filters" role="group" aria-label="Filtros de cursos">
+                    <button class="filter-btn active" data-category="all" aria-pressed="true">Todas as Categorias</button>
+                    <button class="filter-btn" data-category="tecnologia" aria-pressed="false">Tecnologia e Informática</button>
+                    <button class="filter-btn" data-category="profissionalizacao" aria-pressed="false">Profissionalização e Emprego</button>
+                    <button class="filter-btn" data-category="gestao" aria-pressed="false">Gestão e Administração</button>
+                    <button class="filter-btn" data-category="empreendedorismo" aria-pressed="false">Empreendedorismo</button>
+                    <button class="filter-btn" data-category="saude" aria-pressed="false">Saúde e Bem-estar</button>
+                    <button class="filter-btn" data-category="artes" aria-pressed="false">Artes</button>
+                    <button class="filter-btn" data-category="acessibilidade" aria-pressed="false">Acessibilidade</button>
+                    <button class="filter-btn" data-category="outros" aria-pressed="false">Outros Cursos</button>
+                </div>
+
+                <div id="courses-grid" class="courses-grid" role="list" aria-label="Lista de cursos">
+                    <!-- Courses will be loaded here via JavaScript -->
+                </div>
+
+                <div class="load-more-container">
+                    <button id="load-more" class="btn btn--outline" aria-label="Carregar mais cursos">Carregar Mais Cursos</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="trilhas" class="section tracks" aria-labelledby="tracks-title">
+            <div class="container">
+                <header class="section-header">
+                    <h2 id="tracks-title" class="section-title">Trilhas de Aprendizagem</h2>
+                    <p class="section-subtitle">Caminhos estruturados para você alcançar seus objetivos profissionais passo a passo.</p>
+                </header>
+
+                <div id="tracks-grid" class="tracks-grid" role="list" aria-label="Trilhas de aprendizagem">
+                    <!-- Tracks will be loaded here via JavaScript -->
+                </div>
+            </div>
+        </section>
+
+        <section id="recursos" class="section resources" aria-labelledby="resources-title">
+            <div class="container">
+                <header class="section-header">
+                    <h2 id="resources-title" class="section-title">Recursos Profissionais</h2>
+                    <p class="section-subtitle">Ferramentas práticas para preparar seu currículo, entrevistas e busca por emprego.</p>
+                </header>
+
+                <div class="resources-grid" role="list" aria-label="Recursos profissionais">
+                    <article class="resource-card" role="listitem">
+                        <div class="resource-icon" aria-hidden="true">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+                                <polyline points="14 2 14 8 20 8"/>
+                                <line x1="16" y1="13" x2="8" y2="13"/>
+                                <line x1="16" y1="17" x2="8" y2="17"/>
+                                <polyline points="10 9 9 9 8 9"/>
+                            </svg>
+                        </div>
+                        <h3>Como Fazer Currículo</h3>
+                        <p>Guia completo com modelos, dicas de formatação e palavras-chave para destacar seu perfil.</p>
+                        <a href="https://portal.ciee.org.br/universo-ciee/monte-seu-curriculo-com-o-ciee/" class="resource-link" target="_blank" rel="noopener noreferrer">Acessar Guia no CIEE <span aria-hidden="true">→</span></a>
+                    </article>
+
+                    <article class="resource-card" role="listitem">
+                        <div class="resource-icon" aria-hidden="true">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+                                <circle cx="9" cy="7" r="4"/>
+                                <path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
+                                <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+                            </svg>
+                        </div>
+                        <h3>Preparação para Entrevistas</h3>
+                        <p>Perguntas frequentes, técnicas de resposta, linguagem corporal e simulações práticas.</p>
+                        <a href="https://portal.ciee.org.br/universo-ciee/dicas-para-entrevista-de-estagio/" class="resource-link" target="_blank" rel="noopener noreferrer">Ver Dicas no CIEE <span aria-hidden="true">→</span></a>
+                    </article>
+
+                    <article class="resource-card" role="listitem">
+                        <div class="resource-icon" aria-hidden="true">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/>
+                                <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/>
+                            </svg>
+                        </div>
+                        <h3>Glossário Profissional</h3>
+                        <p>Termos técnicos, siglas e jargões do mercado de trabalho explicados de forma simples.</p>
+                        <a href="https://uva.br/postagens/glossario-mundo-do-trabalho/" class="resource-link" target="_blank" rel="noopener noreferrer">Consultar na UVA <span aria-hidden="true">→</span></a>
+                    </article>
+
+                    <article class="resource-card" role="listitem">
+                        <div class="resource-icon" aria-hidden="true">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="12" cy="12" r="10"/>
+                                <line x1="2" y1="12" x2="22" y2="12"/>
+                                <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
+                            </svg>
+                        </div>
+                        <h3>Onde Procurar Emprego</h3>
+                        <p>Portal oficial e gratuito do governo com vagas, orientação e encaminhamento para o mercado de trabalho.</p>
+                        <a href="https://empregabrasil.trabalho.gov.br/trabalhador/" class="resource-link" target="_blank" rel="noopener noreferrer">Ver Vagas no Emprega Brasil <span aria-hidden="true">→</span></a>
+                    </article>
+
+                    <article class="resource-card" role="listitem">
+                        <div class="resource-icon" aria-hidden="true">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+                            </svg>
+                        </div>
+                        <h3>Dicas Contra Golpes</h3>
+                        <p>Como identificar vagas falsas, golpes de recrutamento e proteger seus dados pessoais.</p>
+                        <a href="https://www.pc.ms.gov.br/dica-da-policia-civil-fique-atento-para-o-golpe-do-falso-emprego/" class="resource-link" target="_blank" rel="noopener noreferrer">Ler Alerta da Polícia Civil <span aria-hidden="true">→</span></a>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="como-funciona" class="section how-it-works" aria-labelledby="how-title">
+            <div class="container">
+                <header class="section-header">
+                    <h2 id="how-title" class="section-title">Como Funciona</h2>
+                    <p class="section-subtitle">Quatro passos simples para transformar seu futuro profissional.</p>
+                </header>
+
+                <ol class="steps" role="list" aria-label="Passos de como funciona">
+                    <li class="step" role="listitem">
+                        <div class="step-number" aria-hidden="true">01</div>
+                        <div class="step-content">
+                            <h3>Explore</h3>
+                            <p>Navegue pelo catálogo de cursos gratuitos ou escolha uma trilha de aprendizagem alinhada ao seu objetivo.</p>
+                        </div>
+                    </li>
+                    <li class="step" role="listitem">
+                        <div class="step-number" aria-hidden="true">02</div>
+                        <div class="step-content">
+                            <h3>Inscreva-se</h3>
+                            <p>Clique no curso desejado e seja redirecionado para a plataforma parceira. Sem cadastro prévio, sem burocracia.</p>
+                        </div>
+                    </li>
+                    <li class="step" role="listitem">
+                        <div class="step-number" aria-hidden="true">03</div>
+                        <div class="step-content">
+                            <h3>Aprenda</h3>
+                            <p>Estude no seu ritmo, com videoaulas, materiais de apoio e exercícios práticos. Use nossos recursos profissionais como apoio.</p>
+                        </div>
+                    </li>
+                    <li class="step" role="listitem">
+                        <div class="step-number" aria-hidden="true">04</div>
+                        <div class="step-content">
+                            <h3>Conquiste</h3>
+                            <p>Adicione o certificado ao currículo, use nossas dicas de entrevista e conquiste sua vaga no mercado de trabalho.</p>
+                        </div>
+                    </li>
+                </ol>
+            </div>
+        </section>
+
+        <section id="missao" class="section mission" aria-labelledby="mission-title">
+            <div class="container">
+                <div class="mission-content">
+                    <h2 id="mission-title" class="section-title">Nossa Missão</h2>
+                    <div class="mission-text">
+                        <p><strong>Democratizar o acesso à capacitação profissional</strong>, conectando pessoas a cursos gratuitos e ferramentas para conquistar independência financeira através do conhecimento e do trabalho.</p>
+                        <p>Acreditamos que <strong>todo mundo tem potencial</strong>. O que falta, muitas vezes, é oportunidade, orientação e acesso a recursos de qualidade. Este portal nasceu para preencher essa lacuna.</p>
+                        <p>Priorizamos a <strong>acessibilidade</strong>: navegação por teclado, compatibilidade com leitores de tela, contraste adequado e textos claros. Porque inclusão não é opcional — é essencial.</p>
+                        <p class="mission-closing">Simples, bonito, e com propósito real: encontrar uma oportunidade de verdade para aprender algo útil. É assim que o projeto começa a fazer diferença.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="faq" class="section faq" aria-labelledby="faq-title">
+            <div class="container">
+                <header class="section-header">
+                    <h2 id="faq-title" class="section-title">Perguntas Frequentes</h2>
+                    <p class="section-subtitle">Dúvidas comuns sobre cursos, certificados e o portal.</p>
+                </header>
+                <div class="faq-list">
+                    <details class="faq-item">
+                        <summary>Os cursos são realmente gratuitos?</summary>
+                        <p>Sim. Os cursos listados são oferecidos gratuitamente pelas instituições parceiras. Algumas podem pedir cadastro, mas não cobram.</p>
+                    </details>
+                    <details class="faq-item">
+                        <summary>O certificado tem valor?</summary>
+                        <p>Os certificados são emitidos pelas instituições de origem (Bradesco, Sebrae, IFSP, etc.) e variam conforme o curso.</p>
+                    </details>
+                    <details class="faq-item">
+                        <summary>Como faço para começar?</summary>
+                        <p>Escolha um curso, clique em "Acessar Curso Gratuitamente" e siga as instruções da instituição. Você pode marcar como concluído aqui no portal.</p>
+                    </details>
+                    <details class="faq-item">
+                        <summary>Posso sugerir um curso?</summary>
+                        <p>Sim! Use o link "Sugerir um curso gratuito" no rodapé ou envie um e-mail para contato.vocepodetudo@gmail.com.</p>
+                    </details>
+                    <details class="faq-item">
+                        <summary>Preciso criar conta para usar o site?</summary>
+                        <p>Não. Você pode explorar cursos, favoritar e marcar progresso sem cadastro. A conta gratuita serve para sincronizar esses dados na nuvem e acessar em outros dispositivos.</p>
+                    </details>
+                    <details class="faq-item">
+                        <summary>Meus favoritos e progresso são salvos?</summary>
+                        <p>Sim. Sem conta, ficam salvos neste navegador (localStorage). Com uma conta gratuita, você sincroniza progresso e favoritos na nuvem e acessa em outros dispositivos.</p>
+                    </details>
+                </div>
+            </div>
+        </section>
+
+        <section id="comunidade" class="section community" aria-labelledby="community-title">
+            <div class="container">
+                <header class="section-header">
+                    <h2 id="community-title" class="section-title">Histórias da Comunidade</h2>
+                    <p class="section-subtitle">Compartilhe sua conquista e inspire outras pessoas.</p>
+                </header>
+                <p style="text-align:center;max-width:720px;margin:0 auto var(--space-6);">
+                    Conseguiu um emprego, certificado ou avanço na carreira após usar o portal? Envie sua história para
+                    <a href="mailto:contato.vocepodetudo@gmail.com?subject=Minha%20hist%C3%B3ria%20de%20sucesso">contato.vocepodetudo@gmail.com</a>
+                    e ela poderá aparecer aqui.
+                </p>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer" role="contentinfo">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="#" class="logo logo--footer" aria-label="Você Pode Tudo - Página inicial">
+                        <svg class="logo-icon" viewBox="0 0 32 32" aria-hidden="true" focusable="false">
+                            <circle cx="16" cy="16" r="14" fill="currentColor"/>
+                            <path d="M10 16l4 4 8-8" stroke="white" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                        <span class="logo-text">Você Pode Tudo</span>
+                    </a>
+                    <p class="footer-tagline">Aprenda. Desenvolva. Conquiste.</p>
+                </div>
+                <nav class="footer-nav" aria-label="Links do rodapé">
+                    <h4>Navegação</h4>
+                    <ul>
+                        <li><a href="#inicio">Início</a></li>
+                        <li><a href="#cursos">Cursos Gratuitos</a></li>
+                        <li><a href="#trilhas">Trilhas de Aprendizagem</a></li>
+                        <li><a href="#recursos">Recursos Profissionais</a></li>
+                        <li><a href="#como-funciona">Como Funciona</a></li>
+                        <li><a href="#missao">Nossa Missão</a></li>
+                    </ul>
+                </nav>
+                <div class="footer-contact">
+                    <h4>Contato</h4>
+                    <address>
+                        <p>Email: <a href="mailto:contato.vocepodetudo@gmail.com">contato.vocepodetudo@gmail.com</a></p>
+                        <p><a href="mailto:contato.vocepodetudo@gmail.com?subject=Sugest%C3%A3o%20de%20curso%20gratuito">Sugerir um curso gratuito</a></p>
+                        <p>
+                            <button type="button" id="export-data" class="btn btn--outline btn--small">Exportar meus dados</button>
+                            <button type="button" id="import-data" class="btn btn--outline btn--small">Importar dados</button>
+                            <input type="file" id="import-file" hidden accept="application/json">
+                        </p>
+                        <p><button type="button" class="link-button footer-account-link" data-open-account>Entrar ou criar conta gratuita</button></p>
+                        <p>Somos um hub de cursos gratuitos. Não hospedamos os cursos.</p>
+                        <p>Desenvolvido com propósito para a comunidade</p>
+                    </address>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="footer-theme">
+                    <span class="footer-theme-label" id="footer-theme-label">Tema do site:</span>
+                    <div class="theme-switch" role="group" aria-labelledby="footer-theme-label">
+                        <button type="button" class="theme-choice" data-theme-choice="light" aria-pressed="false">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/></svg>
+                            Claro
+                        </button>
+                        <button type="button" class="theme-choice" data-theme-choice="dark" aria-pressed="false">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+                            Escuro
+                        </button>
+                    </div>
+                </div>
+                <p>&copy; 2025 Você Pode Tudo. Todos os direitos reservados.</p>
+                <p class="accessibility-statement">Comprometidos com acessibilidade digital (WCAG 2.1 AA)</p>
+            </div>
+        </div>
+    </footer>
+
+    <div class="a11y-widget" data-a11y-widget>
+        <button type="button" class="a11y-toggle" id="a11y-toggle" aria-expanded="false" aria-controls="a11y-panel" aria-label="Abrir opções de acessibilidade">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">
+                <circle cx="12" cy="4" r="2"/>
+                <path d="M4 8h16M12 8v5M12 13l-3 8M12 13l3 8"/>
+            </svg>
+            <span class="a11y-toggle-label">Acessibilidade</span>
+        </button>
+
+        <div class="a11y-panel" id="a11y-panel" role="dialog" aria-labelledby="a11y-title" tabindex="-1" hidden>
+            <div class="a11y-panel-header">
+                <h2 id="a11y-title">Acessibilidade</h2>
+                <button type="button" class="a11y-panel-close" id="a11y-close" aria-label="Fechar opções de acessibilidade">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+
+            <div class="a11y-group">
+                <span class="a11y-group-label" id="a11y-font-label">Tamanho do texto</span>
+                <div class="a11y-font-controls" role="group" aria-labelledby="a11y-font-label">
+                    <button type="button" class="a11y-font-btn" data-a11y-font="decrease" aria-label="Diminuir tamanho do texto">A−</button>
+                    <span class="a11y-font-value" id="a11y-font-value" aria-live="polite">100%</span>
+                    <button type="button" class="a11y-font-btn" data-a11y-font="increase" aria-label="Aumentar tamanho do texto">A+</button>
+                </div>
+            </div>
+
+            <div class="a11y-group a11y-options">
+                <button type="button" class="a11y-option" data-a11y-contrast aria-pressed="false">
+                    <span>Alto contraste</span>
+                    <span class="a11y-option-state" aria-hidden="true">Desligado</span>
+                </button>
+                <button type="button" class="a11y-option" data-a11y-motion aria-pressed="false">
+                    <span>Reduzir animações</span>
+                    <span class="a11y-option-state" aria-hidden="true">Desligado</span>
+                </button>
+                <button type="button" class="a11y-option" data-a11y-dyslexia aria-pressed="false">
+                    <span>Modo dislexia</span>
+                    <span class="a11y-option-state" aria-hidden="true">Desligado</span>
+                </button>
+                <button type="button" class="a11y-reset" data-a11y-reset>Restaurar padrão</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="info-popup" class="modal info-popup" role="dialog" aria-modal="true" aria-labelledby="info-popup-title" aria-describedby="info-popup-desc" hidden>
+        <div class="modal-overlay" data-info-popup-close></div>
+        <div class="modal-content info-popup-content">
+            <button type="button" class="modal-close" data-info-popup-close aria-label="Fechar aviso">&times;</button>
+            <div class="info-popup-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" focusable="false">
+                    <circle cx="12" cy="12" r="10"/>
+                    <path d="M12 16v-4M12 8h.01"/>
+                </svg>
+            </div>
+            <h2 id="info-popup-title">Somos um hub de cursos</h2>
+            <p id="info-popup-desc">
+                Este site reúne e divulga cursos gratuitos de diversas instituições.
+                <strong>Não hospedamos os cursos:</strong> ao clicar, você é direcionado ao site oficial de quem oferece o curso.
+            </p>
+            <p>
+                Dúvidas ou sugestões? Fale com a gente:<br>
+                <a href="mailto:contato.vocepodetudo@gmail.com">contato.vocepodetudo@gmail.com</a>
+            </p>
+            <button type="button" class="btn btn--primary btn--full" id="info-popup-ok" data-info-popup-close>Entendi</button>
+        </div>
+    </div>
+
+    <div id="course-modal" class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title" hidden>
+        <div class="modal-overlay" tabindex="-1"></div>
+        <div class="modal-content">
+            <button class="modal-close" aria-label="Fechar detalhes do curso">&times;</button>
+            <div id="modal-body" class="modal-body">
+                <!-- Course details loaded dynamically -->
+            </div>
+        </div>
+    </div>
+
+    <div id="account-modal" class="modal" role="dialog" aria-modal="true" aria-labelledby="account-modal-title" hidden>
+        <div class="modal-overlay" data-account-close tabindex="-1"></div>
+        <div class="modal-content account-modal-content">
+            <button class="modal-close" type="button" data-account-close aria-label="Fechar janela de conta">&times;</button>
+            <div id="account-body" class="modal-body">
+                <h2 id="account-modal-title" class="sr-only">Sua conta</h2>
+                <div class="account-loading" role="status">
+                    <span class="account-spinner" aria-hidden="true"></span>
+                    Verificando sua conta...
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="supabase-config.js"></script>
+    <script src="vendor/supabase-js.js"></script>
+    <script type="module" src="app.js"></script>
+</body>
+</html>

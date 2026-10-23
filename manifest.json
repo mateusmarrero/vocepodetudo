@@ -1,0 +1,20 @@
+{
+  "name": "Você Pode Tudo",
+  "short_name": "VPT",
+  "description": "Cursos gratuitos, trilhas de aprendizagem e recursos profissionais para conquistar sua independência financeira.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#ffffff",
+  "theme_color": "#2563eb",
+  "lang": "pt-BR",
+  "icons": [
+    {
+      "src": "icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
