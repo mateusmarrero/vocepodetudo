@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://vocepodetudo.netlify.app/sitemap.xml
+Sitemap: https://vocepodetudo.com/sitemap.xml

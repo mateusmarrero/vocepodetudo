@@ -1,661 +1,661 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://vocepodetudo.netlify.app/</loc>
+    <loc>https://vocepodetudo.com/</loc>
     <lastmod>2026-10-23</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://vocepodetudo.netlify.app/#cursos</loc>
+    <loc>https://vocepodetudo.com/#cursos</loc>
     <lastmod>2026-10-23</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://vocepodetudo.netlify.app/#trilhas</loc>
+    <loc>https://vocepodetudo.com/#trilhas</loc>
     <lastmod>2026-10-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://vocepodetudo.netlify.app/#recursos</loc>
+    <loc>https://vocepodetudo.com/#recursos</loc>
     <lastmod>2026-10-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://vocepodetudo.netlify.app/#como-funciona</loc>
+    <loc>https://vocepodetudo.com/#como-funciona</loc>
     <lastmod>2026-10-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://vocepodetudo.netlify.app/#missao</loc>
+    <loc>https://vocepodetudo.com/#missao</loc>
     <lastmod>2026-10-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://vocepodetudo.netlify.app/#faq</loc>
+    <loc>https://vocepodetudo.com/#faq</loc>
     <lastmod>2026-10-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://vocepodetudo.netlify.app/?curso=logica-programacao</loc>
+    <loc>https://vocepodetudo.com/?curso=logica-programacao</loc>
     <lastmod>2026-10-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://vocepodetudo.netlify.app/?curso=html-css</loc>
+    <loc>https://vocepodetudo.com/?curso=html-css</loc>
     <lastmod>2026-10-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://vocepodetudo.netlify.app/?curso=javascript-basico</loc>
+    <loc>https://vocepodetudo.com/?curso=javascript-basico</loc>
     <lastmod>2026-10-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://vocepodetudo.netlify.app/?curso=python-basico</loc>
+    <loc>https://vocepodetudo.com/?curso=python-basico</loc>
     <lastmod>2026-10-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://vocepodetudo.netlify.app/?curso=git-github</loc>
+    <loc>https://vocepodetudo.com/?curso=git-github</loc>
     <lastmod>2026-10-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://vocepodetudo.netlify.app/?curso=banco-dados-sql</loc>
+    <loc>https://vocepodetudo.com/?curso=banco-dados-sql</loc>
     <lastmod>2026-10-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://vocepodetudo.netlify.app/?curso=api-rest</loc>
+    <loc>https://vocepodetudo.com/?curso=api-rest</loc>
     <lastmod>2026-10-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://vocepodetudo.netlify.app/?curso=react-basico</loc>
+    <loc>https://vocepodetudo.com/?curso=react-basico</loc>
     <lastmod>2026-10-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://vocepodetudo.netlify.app/?curso=deploy-cloud</loc>
+    <loc>https://vocepodetudo.com/?curso=deploy-cloud</loc>
     <lastmod>2026-10-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://vocepodetudo.netlify.app/?curso=carreira-dev</loc>
+    <loc>https://vocepodetudo.com/?curso=carreira-dev</loc>
     <lastmod>2026-10-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://vocepodetudo.netlify.app/?curso=dio-bootcamp</loc>
+    <loc>https://vocepodetudo.com/?curso=dio-bootcamp</loc>
     <lastmod>2026-10-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://vocepodetudo.netlify.app/?curso=redes-cisco</loc>
+    <loc>https://vocepodetudo.com/?curso=redes-cisco</loc>
     <lastmod>2026-10-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://vocepodetudo.netlify.app/?curso=hackers-nivelamento</loc>
+    <loc>https://vocepodetudo.com/?curso=hackers-nivelamento</loc>
     <lastmod>2026-10-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://vocepodetudo.netlify.app/?curso=hackers-basico</loc>
+    <loc>https://vocepodetudo.com/?curso=hackers-basico</loc>
     <lastmod>2026-10-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://vocepodetudo.netlify.app/?curso=hackers-especializado</loc>
+    <loc>https://vocepodetudo.com/?curso=hackers-especializado</loc>
     <lastmod>2026-10-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://vocepodetudo.netlify.app/?curso=ia-microsoft</loc>
+    <loc>https://vocepodetudo.com/?curso=ia-microsoft</loc>
     <lastmod>2026-10-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://vocepodetudo.netlify.app/?curso=windows-basico</loc>
+    <loc>https://vocepodetudo.com/?curso=windows-basico</loc>
     <lastmod>2026-10-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://vocepodetudo.netlify.app/?curso=word-basico</loc>
+    <loc>https://vocepodetudo.com/?curso=word-basico</loc>
     <lastmod>2026-10-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://vocepodetudo.netlify.app/?curso=excel-basico</loc>
+    <loc>https://vocepodetudo.com/?curso=excel-basico</loc>
     <lastmod>2026-10-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://vocepodetudo.netlify.app/?curso=powerpoint-basico</loc>
+    <loc>https://vocepodetudo.com/?curso=powerpoint-basico</loc>
     <lastmod>2026-10-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://vocepodetudo.netlify.app/?curso=internet-email</loc>
+    <loc>https://vocepodetudo.com/?curso=internet-email</loc>
     <lastmod>2026-10-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://vocepodetudo.netlify.app/?curso=seguranca-digital</loc>
+    <loc>https://vocepodetudo.com/?curso=seguranca-digital</loc>
     <lastmod>2026-10-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://vocepodetudo.netlify.app/?curso=como-fazer-curriculo</loc>
+    <loc>https://vocepodetudo.com/?curso=como-fazer-curriculo</loc>
     <lastmod>2026-10-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://vocepodetudo.netlify.app/?curso=preparacao-entrevistas</loc>
+    <loc>https://vocepodetudo.com/?curso=preparacao-entrevistas</loc>
     <lastmod>2026-10-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://vocepodetudo.netlify.app/?curso=direitos-trabalhistas</loc>
+    <loc>https://vocepodetudo.com/?curso=direitos-trabalhistas</loc>
     <lastmod>2026-10-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://vocepodetudo.netlify.app/?curso=comunicacao-profissional</loc>
+    <loc>https://vocepodetudo.com/?curso=comunicacao-profissional</loc>
     <lastmod>2026-10-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://vocepodetudo.netlify.app/?curso=etiqueta-corporativa</loc>
+    <loc>https://vocepodetudo.com/?curso=etiqueta-corporativa</loc>
     <lastmod>2026-10-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://vocepodetudo.netlify.app/?curso=trabalho-equipe</loc>
+    <loc>https://vocepodetudo.com/?curso=trabalho-equipe</loc>
     <lastmod>2026-10-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://vocepodetudo.netlify.app/?curso=planejamento-carreira</loc>
+    <loc>https://vocepodetudo.com/?curso=planejamento-carreira</loc>
     <lastmod>2026-10-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://vocepodetudo.netlify.app/?curso=financas-pessoais</loc>
+    <loc>https://vocepodetudo.com/?curso=financas-pessoais</loc>
     <lastmod>2026-10-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://vocepodetudo.netlify.app/?curso=educacao-financeira</loc>
+    <loc>https://vocepodetudo.com/?curso=educacao-financeira</loc>
     <lastmod>2026-10-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://vocepodetudo.netlify.app/?curso=gestao-projetos-fgv</loc>
+    <loc>https://vocepodetudo.com/?curso=gestao-projetos-fgv</loc>
     <lastmod>2026-10-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://vocepodetudo.netlify.app/?curso=administracao-fgv</loc>
+    <loc>https://vocepodetudo.com/?curso=administracao-fgv</loc>
     <lastmod>2026-10-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://vocepodetudo.netlify.app/?curso=lideranca-sebrae</loc>
+    <loc>https://vocepodetudo.com/?curso=lideranca-sebrae</loc>
     <lastmod>2026-10-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://vocepodetudo.netlify.app/?curso=power-bi</loc>
+    <loc>https://vocepodetudo.com/?curso=power-bi</loc>
     <lastmod>2026-10-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://vocepodetudo.netlify.app/?curso=canvas-negocio</loc>
+    <loc>https://vocepodetudo.com/?curso=canvas-negocio</loc>
     <lastmod>2026-10-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://vocepodetudo.netlify.app/?curso=validacao-ideia</loc>
+    <loc>https://vocepodetudo.com/?curso=validacao-ideia</loc>
     <lastmod>2026-10-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://vocepodetudo.netlify.app/?curso=financas-empreendedor</loc>
+    <loc>https://vocepodetudo.com/?curso=financas-empreendedor</loc>
     <lastmod>2026-10-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://vocepodetudo.netlify.app/?curso=marketing-digital</loc>
+    <loc>https://vocepodetudo.com/?curso=marketing-digital</loc>
     <lastmod>2026-10-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://vocepodetudo.netlify.app/?curso=vendas-atendimento</loc>
+    <loc>https://vocepodetudo.com/?curso=vendas-atendimento</loc>
     <lastmod>2026-10-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://vocepodetudo.netlify.app/?curso=formalizacao-mei</loc>
+    <loc>https://vocepodetudo.com/?curso=formalizacao-mei</loc>
     <lastmod>2026-10-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://vocepodetudo.netlify.app/?curso=gestao-pequenos-negocios</loc>
+    <loc>https://vocepodetudo.com/?curso=gestao-pequenos-negocios</loc>
     <lastmod>2026-10-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://vocepodetudo.netlify.app/?curso=primeiros-socorros</loc>
+    <loc>https://vocepodetudo.com/?curso=primeiros-socorros</loc>
     <lastmod>2026-10-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://vocepodetudo.netlify.app/?curso=saude-mental</loc>
+    <loc>https://vocepodetudo.com/?curso=saude-mental</loc>
     <lastmod>2026-10-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://vocepodetudo.netlify.app/?curso=alimentacao-saudavel</loc>
+    <loc>https://vocepodetudo.com/?curso=alimentacao-saudavel</loc>
     <lastmod>2026-10-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://vocepodetudo.netlify.app/?curso=fotografia</loc>
+    <loc>https://vocepodetudo.com/?curso=fotografia</loc>
     <lastmod>2026-10-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://vocepodetudo.netlify.app/?curso=desenho</loc>
+    <loc>https://vocepodetudo.com/?curso=desenho</loc>
     <lastmod>2026-10-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://vocepodetudo.netlify.app/?curso=producao-video</loc>
+    <loc>https://vocepodetudo.com/?curso=producao-video</loc>
     <lastmod>2026-10-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://vocepodetudo.netlify.app/?curso=libras-basico</loc>
+    <loc>https://vocepodetudo.com/?curso=libras-basico</loc>
     <lastmod>2026-10-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://vocepodetudo.netlify.app/?curso=tecnologia-assistiva</loc>
+    <loc>https://vocepodetudo.com/?curso=tecnologia-assistiva</loc>
     <lastmod>2026-10-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://vocepodetudo.netlify.app/?curso=ingles-basico</loc>
+    <loc>https://vocepodetudo.com/?curso=ingles-basico</loc>
     <lastmod>2026-10-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://vocepodetudo.netlify.app/?curso=espanhol-basico</loc>
+    <loc>https://vocepodetudo.com/?curso=espanhol-basico</loc>
     <lastmod>2026-10-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://vocepodetudo.netlify.app/?curso=escrita-profissional</loc>
+    <loc>https://vocepodetudo.com/?curso=escrita-profissional</loc>
     <lastmod>2026-10-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://vocepodetudo.netlify.app/?curso=ifsp-banco-dados</loc>
+    <loc>https://vocepodetudo.com/?curso=ifsp-banco-dados</loc>
     <lastmod>2026-10-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://vocepodetudo.netlify.app/?curso=ifsp-java-logica</loc>
+    <loc>https://vocepodetudo.com/?curso=ifsp-java-logica</loc>
     <lastmod>2026-10-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://vocepodetudo.netlify.app/?curso=ifsp-ia-educacao</loc>
+    <loc>https://vocepodetudo.com/?curso=ifsp-ia-educacao</loc>
     <lastmod>2026-10-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://vocepodetudo.netlify.app/?curso=ios-programacao-web</loc>
+    <loc>https://vocepodetudo.com/?curso=ios-programacao-web</loc>
     <lastmod>2026-10-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://vocepodetudo.netlify.app/?curso=ios-suporte-ti</loc>
+    <loc>https://vocepodetudo.com/?curso=ios-suporte-ti</loc>
     <lastmod>2026-10-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://vocepodetudo.netlify.app/?curso=ios-ciberseguranca</loc>
+    <loc>https://vocepodetudo.com/?curso=ios-ciberseguranca</loc>
     <lastmod>2026-10-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://vocepodetudo.netlify.app/?curso=ios-dados-ia</loc>
+    <loc>https://vocepodetudo.com/?curso=ios-dados-ia</loc>
     <lastmod>2026-10-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://vocepodetudo.netlify.app/?curso=recode-transforma-futuros</loc>
+    <loc>https://vocepodetudo.com/?curso=recode-transforma-futuros</loc>
     <lastmod>2026-10-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://vocepodetudo.netlify.app/?curso=recode-fluencia-ia</loc>
+    <loc>https://vocepodetudo.com/?curso=recode-fluencia-ia</loc>
     <lastmod>2026-10-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://vocepodetudo.netlify.app/?curso=proa-proprofissao</loc>
+    <loc>https://vocepodetudo.com/?curso=proa-proprofissao</loc>
     <lastmod>2026-10-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://vocepodetudo.netlify.app/?curso=ciee-google-suporte-ti</loc>
+    <loc>https://vocepodetudo.com/?curso=ciee-google-suporte-ti</loc>
     <lastmod>2026-10-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://vocepodetudo.netlify.app/?curso=ciee-google-dados</loc>
+    <loc>https://vocepodetudo.com/?curso=ciee-google-dados</loc>
     <lastmod>2026-10-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://vocepodetudo.netlify.app/?curso=orango-ia-desvendando</loc>
+    <loc>https://vocepodetudo.com/?curso=orango-ia-desvendando</loc>
     <lastmod>2026-10-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://vocepodetudo.netlify.app/?curso=proa-plataforma</loc>
+    <loc>https://vocepodetudo.com/?curso=proa-plataforma</loc>
     <lastmod>2026-10-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://vocepodetudo.netlify.app/?curso=qualifica-sp-primeiro-emprego</loc>
+    <loc>https://vocepodetudo.com/?curso=qualifica-sp-primeiro-emprego</loc>
     <lastmod>2026-10-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://vocepodetudo.netlify.app/?curso=qualifica-sp-empreenda</loc>
+    <loc>https://vocepodetudo.com/?curso=qualifica-sp-empreenda</loc>
     <lastmod>2026-10-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://vocepodetudo.netlify.app/?curso=ciee-processos-seletivos</loc>
+    <loc>https://vocepodetudo.com/?curso=ciee-processos-seletivos</loc>
     <lastmod>2026-10-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://vocepodetudo.netlify.app/?curso=ciee-como-falar-bem</loc>
+    <loc>https://vocepodetudo.com/?curso=ciee-como-falar-bem</loc>
     <lastmod>2026-10-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://vocepodetudo.netlify.app/?curso=ciee-lgpd</loc>
+    <loc>https://vocepodetudo.com/?curso=ciee-lgpd</loc>
     <lastmod>2026-10-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://vocepodetudo.netlify.app/?curso=ciee-feedback</loc>
+    <loc>https://vocepodetudo.com/?curso=ciee-feedback</loc>
     <lastmod>2026-10-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://vocepodetudo.netlify.app/?curso=ciee-diversidade</loc>
+    <loc>https://vocepodetudo.com/?curso=ciee-diversidade</loc>
     <lastmod>2026-10-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://vocepodetudo.netlify.app/?curso=senai-cursos-online</loc>
+    <loc>https://vocepodetudo.com/?curso=senai-cursos-online</loc>
     <lastmod>2026-10-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://vocepodetudo.netlify.app/?curso=orango-scrum-kanban</loc>
+    <loc>https://vocepodetudo.com/?curso=orango-scrum-kanban</loc>
     <lastmod>2026-10-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://vocepodetudo.netlify.app/?curso=sebrae-gestao-financeira</loc>
+    <loc>https://vocepodetudo.com/?curso=sebrae-gestao-financeira</loc>
     <lastmod>2026-10-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://vocepodetudo.netlify.app/?curso=sebrae-fluxo-caixa</loc>
+    <loc>https://vocepodetudo.com/?curso=sebrae-fluxo-caixa</loc>
     <lastmod>2026-10-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://vocepodetudo.netlify.app/?curso=ciee-accountability</loc>
+    <loc>https://vocepodetudo.com/?curso=ciee-accountability</loc>
     <lastmod>2026-10-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://vocepodetudo.netlify.app/?curso=sebrae-marketing-primeiros-passos</loc>
+    <loc>https://vocepodetudo.com/?curso=sebrae-marketing-primeiros-passos</loc>
     <lastmod>2026-10-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://vocepodetudo.netlify.app/?curso=sebrae-preco-venda</loc>
+    <loc>https://vocepodetudo.com/?curso=sebrae-preco-venda</loc>
     <lastmod>2026-10-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://vocepodetudo.netlify.app/?curso=sebrae-atendimento-inclusivo</loc>
+    <loc>https://vocepodetudo.com/?curso=sebrae-atendimento-inclusivo</loc>
     <lastmod>2026-10-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://vocepodetudo.netlify.app/?curso=sebrae-dropshipping</loc>
+    <loc>https://vocepodetudo.com/?curso=sebrae-dropshipping</loc>
     <lastmod>2026-10-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://vocepodetudo.netlify.app/?curso=sebrae-vender-online</loc>
+    <loc>https://vocepodetudo.com/?curso=sebrae-vender-online</loc>
     <lastmod>2026-10-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://vocepodetudo.netlify.app/?curso=sebrae-startups</loc>
+    <loc>https://vocepodetudo.com/?curso=sebrae-startups</loc>
     <lastmod>2026-10-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://vocepodetudo.netlify.app/?curso=sebrae-customer-success</loc>
+    <loc>https://vocepodetudo.com/?curso=sebrae-customer-success</loc>
     <lastmod>2026-10-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://vocepodetudo.netlify.app/?curso=sebrae-neuromarketing</loc>
+    <loc>https://vocepodetudo.com/?curso=sebrae-neuromarketing</loc>
     <lastmod>2026-10-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://vocepodetudo.netlify.app/?curso=orango-vender-redes</loc>
+    <loc>https://vocepodetudo.com/?curso=orango-vender-redes</loc>
     <lastmod>2026-10-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://vocepodetudo.netlify.app/?curso=orango-cresca-on-line</loc>
+    <loc>https://vocepodetudo.com/?curso=orango-cresca-on-line</loc>
     <lastmod>2026-10-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://vocepodetudo.netlify.app/?curso=unasus-dignidade-menstrual</loc>
+    <loc>https://vocepodetudo.com/?curso=unasus-dignidade-menstrual</loc>
     <lastmod>2026-10-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://vocepodetudo.netlify.app/?curso=unasus-autocuidado-literacia</loc>
+    <loc>https://vocepodetudo.com/?curso=unasus-autocuidado-literacia</loc>
     <lastmod>2026-10-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://vocepodetudo.netlify.app/?curso=unasus-saude-digital</loc>
+    <loc>https://vocepodetudo.com/?curso=unasus-saude-digital</loc>
     <lastmod>2026-10-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://vocepodetudo.netlify.app/?curso=senac-primeiros-socorros</loc>
+    <loc>https://vocepodetudo.com/?curso=senac-primeiros-socorros</loc>
     <lastmod>2026-10-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://vocepodetudo.netlify.app/?curso=orango-design-grafico</loc>
+    <loc>https://vocepodetudo.com/?curso=orango-design-grafico</loc>
     <lastmod>2026-10-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://vocepodetudo.netlify.app/?curso=orango-personagens</loc>
+    <loc>https://vocepodetudo.com/?curso=orango-personagens</loc>
     <lastmod>2026-10-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://vocepodetudo.netlify.app/?curso=orango-design-iniciantes</loc>
+    <loc>https://vocepodetudo.com/?curso=orango-design-iniciantes</loc>
     <lastmod>2026-10-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://vocepodetudo.netlify.app/?curso=sebrae-canva</loc>
+    <loc>https://vocepodetudo.com/?curso=sebrae-canva</loc>
     <lastmod>2026-10-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://vocepodetudo.netlify.app/?curso=escolavirtual-libras</loc>
+    <loc>https://vocepodetudo.com/?curso=escolavirtual-libras</loc>
     <lastmod>2026-10-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://vocepodetudo.netlify.app/?curso=ciee-libras-usp</loc>
+    <loc>https://vocepodetudo.com/?curso=ciee-libras-usp</loc>
     <lastmod>2026-10-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://vocepodetudo.netlify.app/?curso=ifrs-ingles-6</loc>
+    <loc>https://vocepodetudo.com/?curso=ifrs-ingles-6</loc>
     <lastmod>2026-10-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://vocepodetudo.netlify.app/?curso=ifrs-portugues-adicional</loc>
+    <loc>https://vocepodetudo.com/?curso=ifrs-portugues-adicional</loc>
     <lastmod>2026-10-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://vocepodetudo.netlify.app/?curso=ciee-gramatica-pratica</loc>
+    <loc>https://vocepodetudo.com/?curso=ciee-gramatica-pratica</loc>
     <lastmod>2026-10-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://vocepodetudo.netlify.app/?curso=ciee-producao-textos</loc>
+    <loc>https://vocepodetudo.com/?curso=ciee-producao-textos</loc>
     <lastmod>2026-10-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
