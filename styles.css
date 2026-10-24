@@ -1331,3 +1331,20 @@ body, .header, .course-card, .track-card, .resource-card, .section, .footer {
     .account-stats { grid-template-columns: 1fr; }
 }
 
+/* ===== Bandeira do Brasil no Header ===== */
+.header {
+    background: linear-gradient(135deg, 
+        rgba(0, 156, 59, 0.12) 0%,     /* Verde bandeira suave */
+        rgba(255, 223, 0, 0.12) 50%,    /* Amarelo bandeira suave */
+        rgba(0, 39, 118, 0.12) 100%     /* Azul bandeira suave */
+    ), var(--color-bg) !important;
+    background-blend-mode: overlay;
+}
+
+[data-theme="dark"] .header {
+    background: linear-gradient(135deg, 
+        rgba(0, 156, 59, 0.18) 0%, 
+        rgba(255, 223, 0, 0.15) 50%, 
+        rgba(0, 39, 118, 0.18) 100%
+    ), var(--color-bg) !important;
+}
