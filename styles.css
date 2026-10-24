@@ -1330,17 +1330,29 @@ body, .header, .course-card, .track-card, .resource-card, .section, .footer {
     .modal-close { width: 36px; height: 36px; }
     .account-stats { grid-template-columns: 1fr; }
 }
-/* ===== Bandeira do Brasil (Imagem de Fundo) no Header ===== */
+/* ===== Header com Cores da Bandeira do Brasil ===== */
 .header {
-    background-image: linear-gradient(to right, rgba(255,255,255,0.9), rgba(255,255,255,0.85)), url('https://upload.wikimedia.org/wikipedia/commons/0/05/Flag_of_Brazil.svg');
-    background-size: cover;
-    background-position: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    height: var(--header-height);
+    /* Mistura o fundo padrão com um gradiente suave Verde, Amarelo e Azul */
+    background: linear-gradient(135deg, 
+        rgba(0, 156, 59, 0.15) 0%,     /* Verde Brasil */
+        rgba(255, 223, 0, 0.15) 50%,    /* Amarelo Brasil */
+        rgba(0, 39, 118, 0.15) 100%     /* Azul Brasil */
+    ), rgba(255, 255, 255, 0.92) !important;
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    border-bottom: 2px solid rgba(0, 156, 59, 0.3); /* Detalhe verde na borda inferior */
 }
 
+/* Modo escuro */
 [data-theme="dark"] .header {
-    background-image: linear-gradient(to right, rgba(15,23,42,0.92), rgba(15,23,42,0.88)), url('https://upload.wikimedia.org/wikipedia/commons/0/05/Flag_of_Brazil.svg');
-    background-size: cover;
-    background-position: center;
-}
-    ), var(--color-bg) !important;
+    background: linear-gradient(135deg, 
+        rgba(0, 156, 59, 0.22) 0%, 
+        rgba(255, 223, 0, 0.18) 50%, 
+        rgba(0, 39, 118, 0.22) 100%
+    ), rgba(15, 23, 42, 0.92) !important;
+    border-bottom: 2px solid rgba(255, 223, 0, 0.3); /* Detalhe amarelo no modo escuro */
 }
