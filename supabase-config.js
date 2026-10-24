@@ -10,6 +10,6 @@
  * A chave "anon" é pública por design. Nunca use a chave "service_role" aqui.
  */
 window.VPT_SUPABASE = {
-    url: '',
-    anonKey: ''
+    url: 'https://cpkqaozqvbsfwauzmdmm.supabase.co',
+    anonKey: 'sb_publishable_pRb2sqmrxFM9XDtXIxEucg_xLT5-BdI'
 };
